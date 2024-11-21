@@ -1,0 +1,35 @@
+/* Set the background gradient for the whole page */
+html, body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Pink to orange gradient */
+    color: white; /* Set text color to white to stand out against the background */
+}
+
+/* Additional styling for the body content */
+.container {
+    padding-top: 100px; /* To offset the fixed navbar */
+    text-align: center;
+}
+
+/* Navigation bar styling */
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #ff7e5f; /* Change the brand color on hover */
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #feb47b; /* Hover effect for links */
+}
